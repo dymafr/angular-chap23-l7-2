@@ -1,7 +1,7 @@
 <mat-list>
   <mat-list-item *ngFor="let message of messages">
-    <h3 matLine>{{message.emetteur}}</h3>
-    <p matLine>
+    <h3 matListItemTitle>{{message.emetteur}}</h3>
+    <p matListItemLine>
       <span> {{message.sujet}} </span>
       <span> -- {{message.contenu}} </span>
     </p>
